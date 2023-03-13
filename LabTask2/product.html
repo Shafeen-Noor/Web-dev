@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="product.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./basic.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="product.js"></script>
+
+    <title>Product</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Plantopia</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./home.html"
+              >Home</a
+            >
+            <a class="nav-link" href="./about.html">About</a>
+            <a class="nav-link" href="./blog.html">Blog</a>
+            <a class="nav-link" href="./contact.html">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="text-center">Details</h1>
+      <hr />
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./product.jpg"
+              class="img-fluid rounded-start"
+              alt="plant"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Foliage ~ 99$</h5>
+              <p class="card-text">
+                This lush indoor foliage plant features deep green leaves and a
+                striking variegated pattern. It will bring a vibrant and calming
+                presence to any room, and is easy to care for with minimal light
+                and water.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago </small>
+                <a  class="test" onclick="cart()">
+                    <ion-icon id="icon" name="cart">
+                    </ion-icon>
+                  </a>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

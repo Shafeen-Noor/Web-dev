@@ -1,0 +1,56 @@
+.navbar-brand{
+    font-size: 30px;
+}
+.parallax{
+    background: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100% ;
+    background-size: cover;
+    color: aliceblue;
+}
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.parallax-inner p{
+    font-size: 20px;
+}
+.parallax-inner h1{
+    font-size: 70px;
+}
+.container{
+    padding: 10%;
+    padding-bottom: 3%;
+    width: 60%;
+    margin: auto;
+}
+
+blockquote{
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+}
+ion-icon.active{
+    animation:like 0.5s 1;
+    fill:red;
+    stroke:none;
+  }
+  ion-icon{
+    font-size: 24px;
+
+    fill:transparent;
+    stroke:black;
+    stroke-width:30;
+    transition:all 0.5s;
+  }
+  ion-icon:hover{
+    fill:red;
+    stroke:none;}
+  
+  
+  @keyframes like {
+    0%   { transform: scale(1); }
+    90%   { transform: scale(1.2); }
+    100% { transform: scale(1.1); }
+  }
+  a{
+    float: right;
+  }
