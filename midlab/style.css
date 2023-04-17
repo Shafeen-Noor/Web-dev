@@ -1,0 +1,115 @@
+
+hr{
+    border-bottom: 1px solid grey;
+}
+.nav-link{
+    font-size: 14px;
+    color: black;
+    border-right: 1px solid rgb(119, 118, 118);
+}
+.nav-link:hover{
+    color: black;
+    border-bottom: 2px solid rgb(1, 66, 1);
+}
+.link2{
+    font-size: 12px;
+    color: rgb(105, 104, 104);
+    font-size: small;
+    border: none;
+}
+.link3{
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    border: none;
+}
+.fa{
+    font-size: 20px;
+    margin-left: 2px;
+}
+.navbar-brand{
+font-size: 28px;
+color: rgb(1, 66, 1);
+}
+.navbar-brand:hover{
+    color: rgb(1, 66, 1);
+    border-bottom: 2px solid rgb(1, 66, 1);
+}
+#navbarNav2{
+    margin-left: 10%;
+}
+.container2{
+    width: 100%;
+    position:relative;
+    margin-top: 5%;
+    
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.carousel-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 60%;
+    background-color: rgba(255, 254, 254, 1); /* Set opacity for background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.carousel-left h2{
+    color: rgb(1, 66, 1);
+    border-bottom: 1px solid gray;
+}
+.carousel-left p {
+    color: rgb(0, 0, 0); /* Set text color to white with 100% opacity */
+}
+.img-fluid{
+    width: fit-content;
+    height: fit-content;
+}
+.bottom{
+    top: 100%;
+}
+.btn2{
+background-color: white;
+border: none;
+}
+.btn-group{
+    margin-left: 7%;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn3{
+    padding: 30px;
+}
+h1{
+    color: rgb(1, 66, 1);
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    
+}
+.con3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+h3{
+    font-weight: lighter;
+}
