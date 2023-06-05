@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospitals</title>
+</head>
+<body>
+  <h1>Hospitals</h1>
+  
+  <% hospitals.forEach(function(hospital) { %>
+    <div>
+        
+        <p>ID: <%= hospital.id %></p>
+        <p>Name: <%= hospital.name %></p>
+        <p>Location: <%= hospital.location %></p>
+        <p>Rating: <%= hospital.rating %></p>
+    
+            <button class="btn btn-danger float-right"><a class="text-white" href="/product/delete/"+hospital.id>Delete</a></button>
+        
+        
+    </div>
+    <hr>
+  <% }) %>
+
+ 
+</body>
+</html>
