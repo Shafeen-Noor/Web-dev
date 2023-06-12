@@ -1,0 +1,18 @@
+.navbar-brand{
+    font-size: 30px;
+}
+.container{
+    padding: 10%;
+    padding-bottom: 3%;
+    width: 60%;
+    margin: auto;
+}
+button{
+    width: 100%;
+}
+.error{
+    border: 1px solid red;
+}
+.success{
+    border: 1px solid green;
+}
